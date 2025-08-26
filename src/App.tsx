@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './index.css';
 
 export default function App() {
   const [dark, setDark] = useState(false);
@@ -24,7 +25,7 @@ export default function App() {
 
       <header className="hero">
         <h1>Welcome to Alish GC’s Site</h1>
-        <p>BIT student from Nepal, passionate about tech and management.</p>
+        <p>A student from Nepal, passionate about tech.</p>
       </header>
 
       <section id="about">
@@ -57,7 +58,7 @@ export default function App() {
 
       <section id="contact">
         <h2>Contact</h2>
-        <p>Email: alishgc@example.com</p>
+        <p>Email: info@alishgc.com.np</p>
       </section>
     </div>
   );
